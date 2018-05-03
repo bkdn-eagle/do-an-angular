@@ -1,0 +1,17 @@
+<div class="container-fluid">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Tên quán ăn</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let qa of quanAns; let i = index">
+        <th scope="row">{{ i + 1 }}</th>
+        <td>{{ qa.tenquanan }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
